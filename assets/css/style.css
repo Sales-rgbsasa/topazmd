@@ -204,6 +204,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .section.alt { background: #fff; border-block: 1px solid var(--line); }
 .section.navy { background: linear-gradient(160deg, var(--navy), var(--navy-2)); color: #fff; }
 .section.navy h2, .section.navy h3 { color: #fff; }
+/* cards keep a white background inside navy sections, so their titles must stay navy */
+.section.navy .card h3 { color: var(--navy); }
 
 .section-head { max-width: 720px; margin-bottom: 44px; }
 .section-head.center { margin-inline: auto; text-align: center; }
