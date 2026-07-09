@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+Disallow: /he/thank-you.html
+
+Sitemap: https://www.topazmd.com/sitemap.xml
