@@ -168,6 +168,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .btn-outline:hover { background: rgba(255, 255, 255, .1); }
 .btn-navy { background: var(--navy); color: #fff; }
 .btn-navy:hover { background: var(--navy-3); }
+.btn-outline-navy { border: 1.5px solid var(--navy); color: var(--navy); background: transparent; }
+.btn-outline-navy:hover { background: rgba(16, 38, 59, .06); }
 
 .hero-visual { position: relative; }
 .hero-portrait {
